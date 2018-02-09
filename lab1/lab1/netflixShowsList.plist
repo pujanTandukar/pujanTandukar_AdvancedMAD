@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Fantasy</key>
+	<dict>
+		<key>Game of Thrones</key>
+			<array>
+				<string>Rob Stark</string>
+				<string>John Snow</string>
+				<string>Danaerys Targaryen</string>
+				<string>Tryion Lanister</string>
+			</array>
+
+		<key>Stranger Things</key>
+			<array>
+				<string>Eleven</string>
+				<string>Demogorgon</string>
+				<string>Nancy</string>
+				<string>Barbara</string>
+			</array>
+
+		<key>Riverdale</key>
+			<array>
+				<string>Jughead Jones</string>
+				<string>Betty Copper</string>
+				<string>Veronica Lodge</string>
+				<string>Archie Andrews</string>
+			</array>
+
+	</dict>
+
+</dict>
+</plist>

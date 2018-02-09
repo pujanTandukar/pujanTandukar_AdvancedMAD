@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Avenir.ttc">
+            <string>Avenir-Book</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Characters-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="lab1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m3V-Wx-xkp">
+                                <rect key="frame" x="16" y="505" width="343" height="82"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="82" id="GpI-c0-Scm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Dr-8K-IBh">
+                                <rect key="frame" x="27" y="77" width="321" height="216"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="9pv-A4-QxB" id="848-hS-w7e"/>
+                                    <outlet property="delegate" destination="9pv-A4-QxB" id="9Gm-gk-R6K"/>
+                                </connections>
+                            </pickerView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IfJ-q2-Nmu">
+                                <rect key="frame" x="68" y="316" width="239" height="165"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="IfJ-q2-Nmu" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="68" id="0BA-jk-LCx"/>
+                            <constraint firstItem="7Dr-8K-IBh" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="27" id="0c1-b1-B3F"/>
+                            <constraint firstItem="m3V-Wx-xkp" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" id="587-iH-VbS"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="bottom" secondItem="m3V-Wx-xkp" secondAttribute="bottom" constant="31" id="MYQ-zX-l5O"/>
+                            <constraint firstItem="IfJ-q2-Nmu" firstAttribute="top" secondItem="7Dr-8K-IBh" secondAttribute="bottom" constant="23" id="Qef-Mt-tzz"/>
+                            <constraint firstItem="IfJ-q2-Nmu" firstAttribute="top" secondItem="7Dr-8K-IBh" secondAttribute="bottom" constant="23" id="UH3-Jo-8rz"/>
+                            <constraint firstItem="m3V-Wx-xkp" firstAttribute="centerX" secondItem="IfJ-q2-Nmu" secondAttribute="centerX" id="XT2-uM-56f"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="IfJ-q2-Nmu" secondAttribute="trailing" constant="68" id="YG0-jk-NPO"/>
+                            <constraint firstItem="7Dr-8K-IBh" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" constant="57" id="dKb-Ns-jrs"/>
+                            <constraint firstItem="m3V-Wx-xkp" firstAttribute="top" secondItem="IfJ-q2-Nmu" secondAttribute="bottom" constant="24" id="lhP-p8-5Cl"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="7Dr-8K-IBh" secondAttribute="trailing" constant="27" id="sQC-wR-gEc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Characters" image="first" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="characterInfo" destination="m3V-Wx-xkp" id="qxG-29-3fq"/>
+                        <outlet property="firstPicker" destination="7Dr-8K-IBh" id="kOJ-ud-o1a"/>
+                        <outlet property="imageForShow" destination="IfJ-q2-Nmu" id="jZ1-hv-ITK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="752.79999999999995" y="-638.2308845577212"/>
+        </scene>
+        <!--Launch-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="lab1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pnK-NY-LcA">
+                                <rect key="frame" x="64" y="286" width="247" height="95"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <state key="normal" title="Launch Netflix">
+                                    <color key="titleColor" red="0.86274509799999999" green="0.3921568627" blue="0.3921568627" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="listenButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="hSA-8E-bnq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="pnK-NY-LcA" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="Gwf-Zp-NJv"/>
+                            <constraint firstItem="pnK-NY-LcA" firstAttribute="centerY" secondItem="QS5-Rx-YEW" secondAttribute="centerY" id="H7q-FS-dq8"/>
+                            <constraint firstItem="pnK-NY-LcA" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="Ku2-2F-aRm"/>
+                            <constraint firstItem="pnK-NY-LcA" firstAttribute="centerY" secondItem="QS5-Rx-YEW" secondAttribute="centerY" id="MUf-5O-WyC"/>
+                            <constraint firstItem="pnK-NY-LcA" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" constant="266" id="U03-XZ-Ycj"/>
+                            <constraint firstItem="pnK-NY-LcA" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="64" id="q2J-M7-HXt"/>
+                            <constraint firstItem="pnK-NY-LcA" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="64" id="r33-tn-46S"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Gwf-Zp-NJv"/>
+                                <exclude reference="H7q-FS-dq8"/>
+                                <exclude reference="r33-tn-46S"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="Gwf-Zp-NJv"/>
+                                <include reference="H7q-FS-dq8"/>
+                                <exclude reference="Ku2-2F-aRm"/>
+                                <exclude reference="MUf-5O-WyC"/>
+                                <exclude reference="U03-XZ-Ycj"/>
+                                <exclude reference="q2J-M7-HXt"/>
+                                <include reference="r33-tn-46S"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Launch" image="second" id="cPa-gy-q4n"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="752.79999999999995" y="78.710644677661179"/>
+        </scene>
+        <!--Playback-->
+        <scene sceneID="RzK-6a-k3x">
+            <objects>
+                <viewController id="Ij7-7l-Zta" customClass="ThirdViewController" customModule="lab1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aTP-vc-q6h">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="IwE-Yr-4Jh">
+                                <rect key="frame" x="134" y="233" width="107" height="201"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tZC-s3-tdq">
+                                        <rect key="frame" x="0.0" y="0.0" width="107" height="47"/>
+                                        <color key="backgroundColor" red="1" green="0.97908944649999996" blue="0.2312954482" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
+                                        <state key="normal" title="  Record  ">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="recordAudio:" destination="Ij7-7l-Zta" eventType="touchUpInside" id="fW1-Z9-i8y"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eO6-x6-bdB">
+                                        <rect key="frame" x="0.0" y="77" width="107" height="47"/>
+                                        <color key="backgroundColor" red="0.88715277780000001" green="0.096896701390000006" blue="0.24555121529999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
+                                        <state key="normal" title="Stop">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="stopAudio:" destination="Ij7-7l-Zta" eventType="touchUpInside" id="10s-Zv-ef5"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GPu-rd-bye">
+                                        <rect key="frame" x="0.0" y="154" width="107" height="47"/>
+                                        <color key="backgroundColor" red="0.33333333329999998" green="0.78823529410000004" blue="0.64705882349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
+                                        <state key="normal" title="Play">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="playAudio:" destination="Ij7-7l-Zta" eventType="touchUpInside" id="iLb-iV-cHl"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="IwE-Yr-4Jh" firstAttribute="centerY" secondItem="aTP-vc-q6h" secondAttribute="centerY" id="iG5-uw-fbi"/>
+                            <constraint firstItem="IwE-Yr-4Jh" firstAttribute="centerX" secondItem="aTP-vc-q6h" secondAttribute="centerX" id="qT7-AI-LR8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="HvS-kg-Gd9"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Playback" image="diamond" id="Snm-yf-Fil"/>
+                    <connections>
+                        <outlet property="playOutlet" destination="GPu-rd-bye" id="Ew4-BE-1vg"/>
+                        <outlet property="recordOutlet" destination="tZC-s3-tdq" id="2kA-N7-nFa"/>
+                        <outlet property="stopOutlet" destination="eO6-x6-bdB" id="kpB-ih-eWL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="puP-3r-cRK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="753" y="817"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="Ij7-7l-Zta" kind="relationship" relationship="viewControllers" id="8UP-8S-XAE"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-170" y="79"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="diamond" width="25" height="25"/>
+        <image name="first" width="30" height="30"/>
+        <image name="second" width="30" height="30"/>
+    </resources>
+</document>

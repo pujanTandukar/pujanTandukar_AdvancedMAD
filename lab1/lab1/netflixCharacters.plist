@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Stranger Things</key>
+	<array>
+		<string>Eleven</string>
+		<string>Demogorgon</string>
+		<string>Nancy</string>
+		<string>Cheif Hopper</string>
+		<string>Steve Harrington</string>
+	</array>
+	<key>How I Met You Mother</key>
+	<array>
+		<string>Ted Mosby</string>
+		<string>Tracey Mosby</string>
+		<string>Robin Scherbatsky</string>
+		<string>Barney Stinson</string>
+		<string>Marshall Eriksen</string>
+		<string>Lily Aldrin</string>
+	</array>
+	<key>Game of Thrones</key>
+	<array>
+		<string>Daenerys Targaryen</string>
+		<string>John Snow</string>
+		<string>Khal Drogo</string>
+		<string>Tyrion Lanister</string>
+		<string>Arya Stark</string>
+		<string>Sansa Stark</string>
+	</array>
+	<key>Friends</key>
+	<array>
+		<string>Ross Geller</string>
+		<string>Monica Geller</string>
+		<string>Rachel Green</string>
+		<string>Chandler Bing</string>
+		<string>Joey Tribbiani</string>
+		<string>Phoebe Buffay</string>
+	</array>
+	<key>The Flash</key>
+	<array>
+		<string>The Flash</string>
+		<string>Killer Frost</string>
+		<string>Zoom</string>
+		<string>Iris West</string>
+	</array>
+</dict>
+</plist>
