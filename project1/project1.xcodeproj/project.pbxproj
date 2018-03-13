@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7905D98B2057B9D000C62303 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7905D98A2057B9D000C62303 /* GoogleService-Info.plist */; };
+		7905D9912057EA5400C62303 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7905D9902057EA5400C62303 /* OnboardingViewController.swift */; };
 		7951A0FE20576B4C00B03D7F /* MemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A0FD20576B4C00B03D7F /* MemoryViewController.swift */; };
 		799B5E4E203582D700F5C327 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799B5E4D203582D700F5C327 /* AppDelegate.swift */; };
 		799B5E53203582D700F5C327 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 799B5E51203582D700F5C327 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		7905D98A2057B9D000C62303 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7905D9902057EA5400C62303 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		7951A0FD20576B4C00B03D7F /* MemoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryViewController.swift; sourceTree = "<group>"; };
 		799B5E4A203582D700F5C327 /* project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		799B5E4D203582D700F5C327 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				799B5E4D203582D700F5C327 /* AppDelegate.swift */,
 				79A31735204FCB3E000CAB8D /* Memory.swift */,
 				79A31731204FC8E3000CAB8D /* TableViewController.swift */,
+				7905D9902057EA5400C62303 /* OnboardingViewController.swift */,
 				79A31733204FCADB000CAB8D /* TableViewCell.swift */,
 				79A31737204FCF5D000CAB8D /* ViewController.swift */,
 				7951A0FD20576B4C00B03D7F /* MemoryViewController.swift */,
@@ -252,6 +255,7 @@
 				7951A0FE20576B4C00B03D7F /* MemoryViewController.swift in Sources */,
 				79A31736204FCB3E000CAB8D /* Memory.swift in Sources */,
 				79A31734204FCADB000CAB8D /* TableViewCell.swift in Sources */,
+				7905D9912057EA5400C62303 /* OnboardingViewController.swift in Sources */,
 				799B5E4E203582D700F5C327 /* AppDelegate.swift in Sources */,
 				79A31732204FC8E3000CAB8D /* TableViewController.swift in Sources */,
 			);

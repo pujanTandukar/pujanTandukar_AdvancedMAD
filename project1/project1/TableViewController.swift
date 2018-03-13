@@ -27,8 +27,6 @@ class TableViewController: UITableViewController, UISearchBarDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.separatorStyle = .none
-//        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(TableViewController.dismissKeyboard))
-//        view.addGestureRecognizer(tap)
         do {
             realm = try Realm()
         } catch let error {
