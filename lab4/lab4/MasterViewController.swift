@@ -45,7 +45,7 @@ class MasterViewController: UITableViewController {
     func parsejson(_ data: Data){
         do{
             let colorArray = try JSONDecoder().decode([Colors].self, from: data)
-//            print(colorArray[0].name)
+            print(colorArray[0].name)
             for color in colorArray{
                 colors.append(color)
             }
