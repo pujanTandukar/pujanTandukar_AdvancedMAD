@@ -1,0 +1,8 @@
+Everything about this project went well for me. I got very close to what I initially wanted the app to look like 
+and it came out to be very similar to it. It was alot of fun working with custom tableview class and it was 
+painful working with bunch of delegate methods, especially the search bar delegates took quite a bit to make 
+it what I wanted it to look like. 
+The only thing I want to add for the future is the data presistence part. I was trying very hard to add this 
+but I had so many problems trying to add an image into the Realm database. I will definetly add. I have been trying
+to look into more ways to add images and I was trying to save just the file destination but that did not work out.
+I have been looking into converting the image to base64 string. 
