@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Shows</string>
+    <string name="shows">Shows</string>
+    <string name="characterName">char name</string>
+    <string name="okay">You would enjoy watching the Office!</string>
+    <string name="createOrder">Order</string>
+    <string-array name="show_names">
+        <item>Stranger Things</item>
+        <item>Friends</item>
+        <item>How I Met Your Mother</item>
+    </string-array>
+</resources>
