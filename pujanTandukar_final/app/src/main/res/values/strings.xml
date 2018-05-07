@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Workout</string>
+    <string name="appPic">Workout Photo</string>
+    <string name="event">Event</string>
+    <string name="nameName">Name</string>
+    <string name="nameAdd">Email</string>
+
+
+    <string-array name="workoutType">
+        <item>Cardio</item>
+        <item>Strength</item>
+        <item>Flexibility</item>
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="title_activity_category_add">CategoryAdd</string>
+</resources>
