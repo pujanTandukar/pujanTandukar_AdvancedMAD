@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "175627777736",
+    "firebase_url": "https://recipes-fce91.firebaseio.com",
+    "project_id": "recipes-fce91",
+    "storage_bucket": "recipes-fce91.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175627777736:android:4afe0c151058ead6",
+        "android_client_info": {
+          "package_name": "com.example.pujan.lab9_extracredit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175627777736-j4ti5okbfhmadvfiphglpm7qkjqjg0pk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pujan.lab9_extracredit",
+            "certificate_hash": "fe4b6352aee10952eae325cedb575097ea5ac15e"
+          }
+        },
+        {
+          "client_id": "175627777736-ijhh4pke4q9qn1mq7866tulvccn1uc20.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTfCgj0DTfMGfuNHBYJ8r4NpVMoVgLHp4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175627777736-ld9gahd62nccgdivcsj0kits0h8utttn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "pujantandukar.recipes"
+              }
+            },
+            {
+              "client_id": "175627777736-ijhh4pke4q9qn1mq7866tulvccn1uc20.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
